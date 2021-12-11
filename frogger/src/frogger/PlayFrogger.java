@@ -12,7 +12,7 @@ public class PlayFrogger extends JFrame {
   public static Cronometro c;
 
   public PlayFrogger() {
-      setSize(310,800);
+      setSize(310,700);
       lab1 = new JLabel("LEVEL");
       lab1.setFont(new Font("Courier New", Font.ITALIC, 18));
       lab2=new JLabel("♥♥♥♥♥");
