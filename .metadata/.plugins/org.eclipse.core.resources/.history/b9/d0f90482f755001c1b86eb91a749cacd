@@ -1,0 +1,18 @@
+package tests;
+
+/**
+ * A marker exception so we know that a System.exit was intercepted by our
+ * SecurityManager.
+ */
+public class SystemExitPreventedException extends SecurityException {
+
+    private final int statusCode;
+
+    public SystemExitPreventedException(int statusCode) {
+        this.statusCode = statusCode;
+    }
+
+    public int getStatusCode() {
+        return statusCode;
+    }
+}

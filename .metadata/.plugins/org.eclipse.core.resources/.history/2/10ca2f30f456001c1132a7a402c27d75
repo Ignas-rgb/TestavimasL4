@@ -1,0 +1,62 @@
+package frogger;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.awt.Rectangle;
+
+import org.junit.jupiter.api.Test;
+
+class TrafficPatternTest {
+
+	private int speed;
+	private String pattern;
+	private boolean left;
+	private Rectangle bounds;
+	private int y;
+
+	@Test
+	final void testTrafficPattern() {
+		speed = 80;
+		pattern = "RRB BB GB";
+		left = true;
+		bounds = new Rectangle(0,0,50,50);
+		y = 20;
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testInitCars() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testAddCar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testMoveCars() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testTestForNewCar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testIntersects() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testDraw() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	final void testUpdate() {
+		fail("Not yet implemented");
+	}
+
+}

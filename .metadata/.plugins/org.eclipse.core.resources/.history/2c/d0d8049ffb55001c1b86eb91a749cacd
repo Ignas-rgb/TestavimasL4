@@ -1,0 +1,60 @@
+package tests;
+
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+import java.util.stream.Stream;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import frogger.*;
+
+public class Testing_FrogDies {
+	@ParameterizedTest
+	@MethodSource("inputStream")
+	void LevelChanges(int victory, int expected) {
+		PlayFrogger froggerPlay = new PlayFrogger();
+		FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.WON;
+		
+		
+		//need to reach further level from 1
+		try {
+			while(comp.level != victory) {
+				comp.update();
+				comp.engine.state = FroggerState.WON;
+			}
+					
+		} catch (InterruptedException e) {
+			fail("Test failed: InterruptedException");
+			e.printStackTrace();
+		}
+		
+		//testing if after it dies it restarts to lvl 1
+		comp.engine.state = FroggerState.HIT;
+		comp.life = 0;
+		try {
+			
+			comp.update();
+			assertEquals(expected, comp.level);
+		} catch (InterruptedException e) {
+			fail("Test failed: InterruptedException");
+			e.printStackTrace();
+		}
+	}
+	
+	private static Stream<Arguments> inputStream(){
+		return Stream.of(
+			Arguments.of(1, 1),
+			Arguments.of(2, 1),
+			Arguments.of(3, 1),
+			Arguments.of(4, 1),
+			Arguments.of(5, 1),
+			Arguments.of(6, 1),
+			Arguments.of(7, 1),
+			Arguments.of(8, 1),
+		);
+	}
+}

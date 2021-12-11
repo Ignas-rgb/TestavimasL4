@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="tests" project="frogger" tests="48" started="48" failures="1" errors="0" ignored="0">
+  <testsuite name="tests.Testing_FrogDies" time="0.513" displayname="Testing_FrogDies" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]">
+    <testsuite name="LevelChanges(tests.Testing_FrogDies)" time="0.513" displayname="LevelChanges(int, int)" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]">
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.513" dynamicTest="true" displayname="[1] 1, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.064" dynamicTest="true" displayname="[2] 2, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.052" dynamicTest="true" displayname="[3] 3, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.065" dynamicTest="true" displayname="[4] 4, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#4]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.052" dynamicTest="true" displayname="[5] 5, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#5]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.064" dynamicTest="true" displayname="[6] 6, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#6]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.06" dynamicTest="true" displayname="[7] 7, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#7]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_FrogDies" time="0.091" dynamicTest="true" displayname="[8] 8, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_FrogDies]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#8]"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="tests.Testing_LevelChanges" time="0.116" displayname="Testing_LevelChanges" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]">
+    <testsuite name="LevelChanges(tests.Testing_LevelChanges)" time="0.116" displayname="LevelChanges(int, int)" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]">
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.116" dynamicTest="true" displayname="[1] 0, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.07" dynamicTest="true" displayname="[2] 1, 1" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.072" dynamicTest="true" displayname="[3] 2, 2" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.148" dynamicTest="true" displayname="[4] 3, 3" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#4]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.104" dynamicTest="true" displayname="[5] 4, 4" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#5]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.095" dynamicTest="true" displayname="[6] 5, 5" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#6]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.103" dynamicTest="true" displayname="[7] 6, 6" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#7]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.119" dynamicTest="true" displayname="[8] 7, 7" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#8]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.12" dynamicTest="true" displayname="[9] 8, 8" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#9]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LevelChanges" time="0.121" dynamicTest="true" displayname="[10] 9, 9" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LevelChanges]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#10]"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="tests.Testing_Game_LabelChange" time="0.31" displayname="Testing_Game_LabelChange" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]">
+    <testsuite name="LevelChanges(tests.Testing_Game_LabelChange)" time="0.31" displayname="LevelChanges(int, JLabel)" parameters="int,javax.swing.JLabel" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]/[test-template:LevelChanges(int, javax.swing.JLabel)]">
+      <testcase name="LevelChanges" classname="tests.Testing_Game_LabelChange" time="0.31" dynamicTest="true" displayname="[1] 0, javax.swing.JLabel[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=♥♥♥♥♥,verticalAlignment=CENTER,verticalTextPosition=CENTER]" parameters="int,javax.swing.JLabel" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]/[test-template:LevelChanges(int, javax.swing.JLabel)]/[test-template-invocation:#1]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_Game_LabelChange" time="0.33" dynamicTest="true" displayname="[2] 1, javax.swing.JLabel[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=♥♥♥♥,verticalAlignment=CENTER,verticalTextPosition=CENTER]" parameters="int,javax.swing.JLabel" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]/[test-template:LevelChanges(int, javax.swing.JLabel)]/[test-template-invocation:#2]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_Game_LabelChange" time="0.292" dynamicTest="true" displayname="[3] 2, javax.swing.JLabel[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=♥♥♥,verticalAlignment=CENTER,verticalTextPosition=CENTER]" parameters="int,javax.swing.JLabel" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]/[test-template:LevelChanges(int, javax.swing.JLabel)]/[test-template-invocation:#3]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_Game_LabelChange" time="0.195" dynamicTest="true" displayname="[4] 3, javax.swing.JLabel[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=♥♥,verticalAlignment=CENTER,verticalTextPosition=CENTER]" parameters="int,javax.swing.JLabel" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]/[test-template:LevelChanges(int, javax.swing.JLabel)]/[test-template-invocation:#4]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_Game_LabelChange" time="0.14" dynamicTest="true" displayname="[5] 4, javax.swing.JLabel[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=♥,verticalAlignment=CENTER,verticalTextPosition=CENTER]" parameters="int,javax.swing.JLabel" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_Game_LabelChange]/[test-template:LevelChanges(int, javax.swing.JLabel)]/[test-template-invocation:#5]"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="tests.Testing_LivesChange" time="0.197" displayname="Testing_LivesChange" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]">
+    <testsuite name="LevelChanges(tests.Testing_LivesChange)" time="0.197" displayname="LevelChanges(int, int)" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]">
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.197" dynamicTest="true" displayname="[1] 0, 5" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.144" dynamicTest="true" displayname="[2] 1, 4" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.21" dynamicTest="true" displayname="[3] 2, 3" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.175" dynamicTest="true" displayname="[4] 3, 2" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#4]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.367" dynamicTest="true" displayname="[5] 4, 1" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#5]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.185" dynamicTest="true" displayname="[6] 5, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#6]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.187" dynamicTest="true" displayname="[7] 6, 5" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#7]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_LivesChange" time="0.196" dynamicTest="true" displayname="[8] 7, 4" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_LivesChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#8]"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="tests.Testing_ScoreChange" time="0.223" displayname="Testing_ScoreChange" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]">
+    <testsuite name="LevelChanges(tests.Testing_ScoreChange)" time="0.222" displayname="LevelChanges(int, int)" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]">
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.222" dynamicTest="true" displayname="[1] 0, 0" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.284" dynamicTest="true" displayname="[2] 1, 300" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.257" dynamicTest="true" displayname="[3] 2, 600" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.239" dynamicTest="true" displayname="[4] 3, 900" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#4]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.204" dynamicTest="true" displayname="[5] 4, 1200" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#5]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.21" dynamicTest="true" displayname="[6] 5, 1500" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#6]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.277" dynamicTest="true" displayname="[7] 6, 1800" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#7]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.216" dynamicTest="true" displayname="[8] 7, 2100" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#8]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.241" dynamicTest="true" displayname="[9] 8, 2400" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#9]"/>
+      <testcase name="LevelChanges" classname="tests.Testing_ScoreChange" time="0.226" dynamicTest="true" displayname="[10] 9, 2700" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:tests.Testing_ScoreChange]/[test-template:LevelChanges(int, int)]/[test-template-invocation:#10]"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="tests.Index" time="0.259" displayname="Index" uniqueid="[engine:junit-vintage]/[runner:tests.Index]">
+    <testcase name="onVictory" classname="tests.Index" time="0.259" displayname="onVictory" uniqueid="[engine:junit-vintage]/[runner:tests.Index]/[test:onVictory(tests.Index)]">
+      <failure>
+        <expected>1</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;0&gt;&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)&#13;
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)&#13;
+	at tests.Index.onVictory(Index.java:39)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)&#13;
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="tests.Testing_FrogMovement" time="0.008" displayname="Testing_FrogMovement" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]">
+    <testcase name="Frog_MoveDown" classname="tests.Testing_FrogMovement" time="0.002" displayname="Frog_MoveDown" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]/[test:Frog_MoveDown(tests.Testing_FrogMovement)]"/>
+    <testcase name="Frog_MoveLeft" classname="tests.Testing_FrogMovement" time="0.002" displayname="Frog_MoveLeft" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]/[test:Frog_MoveLeft(tests.Testing_FrogMovement)]"/>
+    <testcase name="Frog_MoveRight" classname="tests.Testing_FrogMovement" time="0.002" displayname="Frog_MoveRight" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]/[test:Frog_MoveRight(tests.Testing_FrogMovement)]"/>
+    <testcase name="Frog_MoveUp" classname="tests.Testing_FrogMovement" time="0.002" displayname="Frog_MoveUp" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]/[test:Frog_MoveUp(tests.Testing_FrogMovement)]"/>
+  </testsuite>
+  <testsuite name="tests.FrogTest" time="0.0" displayname="FrogTest" uniqueid="[engine:junit-vintage]/[runner:tests.FrogTest]">
+    <testcase name="testMove" classname="tests.FrogTest" time="0.0" displayname="testMove" uniqueid="[engine:junit-vintage]/[runner:tests.FrogTest]/[test:testMove(tests.FrogTest)]"/>
+    <testcase name="testMoveTo" classname="tests.FrogTest" time="0.0" displayname="testMoveTo" uniqueid="[engine:junit-vintage]/[runner:tests.FrogTest]/[test:testMoveTo(tests.FrogTest)]"/>
+  </testsuite>
+</testrun>

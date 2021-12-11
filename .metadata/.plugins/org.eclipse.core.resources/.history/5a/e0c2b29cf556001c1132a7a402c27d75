@@ -1,0 +1,69 @@
+package frogger;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class FrogTest {
+
+	@Test
+	final void testFrog() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testMove() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testMoveTo() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testMoveUp() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testMoveDown() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testMoveLeft() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testMoveRight() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testGetBounds() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testDraw() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testDrawLevel() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testGetX() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	final void testGetY() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

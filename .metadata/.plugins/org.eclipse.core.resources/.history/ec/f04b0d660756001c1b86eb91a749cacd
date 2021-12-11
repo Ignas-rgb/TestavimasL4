@@ -1,0 +1,57 @@
+package tests;
+
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.Vector;
+import java.util.stream.Stream;
+
+import javax.swing.JLabel;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import frogger.FroggerComponent;
+import frogger.FroggerLevel;
+import frogger.FroggerLevelEngine;
+import frogger.FroggerState;
+import frogger.PlayFrogger;
+
+public class Testing_FrogMovement {
+	@ParameterizedTest
+	@MethodSource("inputStream")
+	void LevelChanges(int hit, int expected) {
+		PlayFrogger froggerPlay = new PlayFrogger();
+		FroggerComponent comp = new FroggerComponent();
+		Vector<FroggerLevel> levels = new Vector();
+		levels.add(new FroggerLevel(
+                new int[]{1, 2, 1},
+                new String[]{"  YYYY         L  ", " BB      RR     ", "    RR    MM     "}));
+		
+		FroggerLevelEngine engne = new FroggerLevelEngine(levels.get(0));
+		
+		
+		
+		try {
+			
+			comp.update();
+			
+			assertEquals(expectedLabel.getText(), froggerPlay.lab2.getText());
+		} catch (InterruptedException e) {
+			fail("Test failed: InterruptedException");
+			e.printStackTrace();
+		}
+	}
+	
+	private static Stream<Arguments> inputStream(){
+		return Stream.of(
+			Arguments.of(0,  1),
+			Arguments.of(1,1),
+			Arguments.of(2, 1),
+			Arguments.of(3, 1),
+			Arguments.of(4, 1)
+		);
+	}
+	
+}

@@ -1,0 +1,41 @@
+package tests;
+
+import java.util.Optional;
+
+import org.junit.jupiter.api.extension.*;
+
+import tests.DisallowExitSecurityManager.ExpectSystemExitWithStatus;
+
+public class SystemExitExtension implements BeforeEachCallback, AfterEachCallback, TestExecutionExceptionHandler {
+	private Integer expectedStatusCode;  
+    private final DisallowExitSecurityManager disallowExitSecurityManager = new DisallowExitSecurityManager(System.getSecurityManager());
+    private SecurityManager originalSecurityManager;
+
+    @Override
+    public void beforeEach(final ExtensionContext context) {
+        // TODO
+    }
+
+    @Override
+    public void handleTestExecutionException(final ExtensionContext context, final Throwable throwable) 
+        throws Throwable {
+        // TODO
+    }
+
+    @Override
+    public void afterEach(final ExtensionContext context) {
+        // TODO
+    }
+
+    // Find the annotation on a method, or failing that, a class.
+    private Optional<ExpectSystemExitWithStatus> getAnnotation(final ExtensionContext context) {
+        final Optional<ExpectSystemExitWithStatus> method = 
+            findAnnotation(context.getTestMethod(), ExpectSystemExitWithStatus.class);
+
+        if (method.isPresent()) {
+            return method;
+        } else {
+            return findAnnotation(context.getTestClass(), ExpectSystemExitWithStatus.class);
+        }
+    }
+}

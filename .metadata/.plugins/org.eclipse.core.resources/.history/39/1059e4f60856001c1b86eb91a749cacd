@@ -1,0 +1,22 @@
+package tests;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.awt.Rectangle;
+import org.junit.jupiter.api.Test;
+import frogger.Frog;
+
+public class Testing_FrogMovement {
+	@Test
+	void LevelChanges() {
+		Frog tempFrog = new Frog( 150, 150,  new Rectangle(0,0,250,250));
+		tempFrog.moveDown();
+		int startX = 150;
+		int startY = 145;
+
+		int x = tempFrog.GetX();
+		int y = tempFrog.GetY();
+		
+		assertEquals(x, startX);
+		assertEquals(y, startY);
+	}
+}

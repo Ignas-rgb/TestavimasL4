@@ -1,0 +1,75 @@
+package tests;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+import frogger.FroggerComponent;
+import frogger.FroggerState;
+
+public class Testing_FrogMovement {
+	//Problema jei as taip pasidarau as gaunu NullPointerException
+	FroggerComponent comp;
+	
+	@Before
+	public void setup() {
+		FroggerComponent comp = new FroggerComponent();
+	}
+	@Test
+	public void Frog_MoveDown(){
+		//FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.MOVING;
+		int expectedX = comp.engine.frog.GetX();
+		int expectedY = comp.engine.frog.GetY();
+		
+		comp.engine.moveDown();
+		assertEquals(expectedX, comp.engine.frog.GetX());
+		assertEquals(expectedY, comp.engine.frog.GetY());
+	}
+	@After
+	public void close() {
+		comp = null;
+	}
+//	
+//	@Test
+//	void Frog_MoveUp() {
+//		FroggerComponent comp = new FroggerComponent();
+//		comp.engine.state = FroggerState.MOVING;
+//		int expectedX = comp.engine.frog.GetX();
+//		int expectedY = comp.engine.frog.GetY() - 4;
+//		
+//		comp.engine.moveUp();
+//		
+//		assertEquals(expectedX, comp.engine.frog.GetX());
+//		assertEquals(expectedY, comp.engine.frog.GetY());
+//	}
+//	
+//	@Test
+//	void Frog_MoveLeft() {
+//		FroggerComponent comp = new FroggerComponent();
+//		comp.engine.state = FroggerState.MOVING;
+//		int expectedX = comp.engine.frog.GetX() - 4;
+//		int expectedY = comp.engine.frog.GetY();
+//		
+//		comp.engine.moveLeft();
+//		
+//		assertEquals(expectedX, comp.engine.frog.GetX());
+//		assertEquals(expectedY, comp.engine.frog.GetY());
+//	}
+//	
+//	
+//	@Test
+//	void Frog_MoveRight() {
+//		FroggerComponent comp = new FroggerComponent();
+//		comp.engine.state = FroggerState.MOVING;
+//		int expectedX = comp.engine.frog.GetX() + 4;
+//		int expectedY = comp.engine.frog.GetY();
+//		
+//		comp.engine.moveRight();;
+//		
+//		assertEquals(expectedX, comp.engine.frog.GetX());
+//		assertEquals(expectedY, comp.engine.frog.GetY());
+//	}
+	
+}

@@ -1,0 +1,53 @@
+package tests;
+import static org.junit.Assert.*;
+import java.util.Vector;
+
+import javax.swing.JOptionPane;
+
+import org.junit.*;
+import frogger.*;
+
+//Dar klausimas, o kodel ems darom su JUnit 4 ??? kodel mes su naujesne versija nedarom??
+//ten bent kodo tiek refacotrint nereiktu
+
+
+//TODO - ka galima istestint listas:
+/*
+ * FroggerComponent.java - {
+
+ * 	4.FroggerState - all states
+ * 	5. lab1, lab2, lab3 - skirtinguose leveliuose?
+ * }
+ * FroggerLevelEngine - su update kaip su trafic intersects, moveup, down ir .t.t. tai cia realiai paliestu ir Frog.java
+ *  TrafficPattern - su speed ar nesugriaus zaidimo, nes limito setinimui speedo nera realiai kaip ir bounds, o intersects su frog jau butu ankstesniame testas
+ * 
+ * */
+public class Index {
+
+	@Test
+	public void onVictory(){
+//		fail("Not yet implemented");
+		PlayFrogger froggerPlay =  new PlayFrogger(); 
+		FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.WON;
+		comp.level = 89;
+		
+		try {
+
+			comp.update();
+			assertEquals(1, comp.endGameAfterVicotory);
+			
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			fail("Test failed: InterruptedException");
+		}
+	}
+	
+	
+	@Test
+	public void CollisionCheck() {
+		fail("Not yet implemented");
+	}
+	
+	
+}

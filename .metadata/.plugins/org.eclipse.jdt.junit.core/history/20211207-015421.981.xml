@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Testing_FrogMovement" project="frogger" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.Testing_FrogMovement" time="0.061" displayname="Testing_FrogMovement" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]">
+    <testcase name="Frog_MoveDown" classname="tests.Testing_FrogMovement" time="0.059" displayname="Frog_MoveDown" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]/[test:Frog_MoveDown(tests.Testing_FrogMovement)]"/>
+    <testcase name="Frog_MoveUp" classname="tests.Testing_FrogMovement" time="0.001" displayname="Frog_MoveUp" uniqueid="[engine:junit-vintage]/[runner:tests.Testing_FrogMovement]/[test:Frog_MoveUp(tests.Testing_FrogMovement)]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,28 @@
+package tests;
+
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.awt.AWTException;
+
+
+import org.junit.jupiter.api.Test;
+import frogger.FroggerComponent;
+import frogger.FroggerState;
+import frogger.PlayFrogger;
+
+public class Testing_FrogMovement {
+	@Test
+	void Frog_MoveDown() throws AWTException {
+		//Robot robot = new Robot();
+
+		FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.MOVING;
+		int x = comp.engine.frog.GetX();
+		int y = comp.engine.frog.GetY();
+		
+		comp.engine.moveDown();
+		assertEquals(x, comp.engine.frog.GetX());
+		assertEquals(y, comp.engine.frog.GetY());
+	}
+}

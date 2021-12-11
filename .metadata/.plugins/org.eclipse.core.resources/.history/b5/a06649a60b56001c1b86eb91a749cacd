@@ -1,0 +1,37 @@
+package tests;
+
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.awt.Rectangle;
+import org.junit.jupiter.api.Test;
+import frogger.Frog;
+import frogger.FroggerComponent;
+import frogger.FroggerState;
+import frogger.PlayFrogger;
+
+public class Testing_FrogMovement {
+	@Test
+	void Frog_MoveDown() {
+
+		PlayFrogger froggerPlay = new PlayFrogger();
+		FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.HIT;
+		int x = comp.engine.frog.GetX();
+		int y = comp.engine.frog.GetY();
+		
+		System.out.println(y);
+		
+		try {
+			comp.engine.moveDown();
+			comp.update();
+			comp.engine.moveDown();
+			System.out.println(comp.engine.frog.GetY());
+			
+			assertEquals(x, comp.engine.frog.GetX());
+			assertEquals(y, comp.engine.frog.GetY());
+		} catch (InterruptedException e) {
+			fail("Test failed: InterruptedException");
+			e.printStackTrace();
+		}
+	}
+}

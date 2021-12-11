@@ -1,0 +1,64 @@
+package tests;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+import org.junit.Before;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import frogger.*;
+
+public class Testing_LevelChanges {
+	
+	//Classes needed for testing, not dependencies
+//	private PlayFrogger froggerPlay;
+//	private FroggerComponent comp;
+//	
+//	@Before
+//	public void setup() {
+//		froggerPlay = new PlayFrogger();
+//		comp = new FroggerComponent();
+//	}
+	
+	@ParameterizedTest
+	@MethodSource("inputStream")
+	void LevelChanges(int victoryCount, int expected) {
+		PlayFrogger froggerPlay = new PlayFrogger();
+		FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.WON;
+		
+		System.out.println(victoryCount + " " + expected);
+		
+		try {
+			while(victoryCount > 0) {
+				comp.update();
+				victoryCount--;
+			}
+			System.out.println(expected + " " + comp.level);
+			assertEquals(expected, comp.level);
+			
+		} catch (InterruptedException e) {
+			fail("Test failed: InterruptedException");
+			e.printStackTrace();
+		}
+	}
+	
+	private static Stream<Arguments> inputStream(){
+		return Stream.of(
+			Arguments.of(0, 1),
+			Arguments.of(1, 2),
+			Arguments.of(2, 3),
+			Arguments.of(3, 4),
+			Arguments.of(4, 5),
+			Arguments.of(5, 6),
+			Arguments.of(6, 7),
+			Arguments.of(7, 8),
+			Arguments.of(8, 9)
+		);
+	}
+}

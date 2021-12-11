@@ -1,0 +1,46 @@
+package tests;
+
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.awt.AWTException;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.junit.jupiter.api.Test;
+import frogger.Frog;
+import frogger.FroggerComponent;
+import frogger.FroggerState;
+import frogger.PlayFrogger;
+
+public class Testing_FrogMovement {
+	@Test
+	void Frog_MoveDown() throws AWTException {
+		//Robot robot = new Robot();
+
+		PlayFrogger froggerPlay = new PlayFrogger();
+		FroggerComponent comp = new FroggerComponent();
+		comp.engine.state = FroggerState.MOVING;
+		int x = comp.engine.frog.GetX();
+		int y = comp.engine.frog.GetY();
+		
+		System.out.println(y);
+		
+		//robot.keyPress(KeyEvent.VK_DOWN);
+		comp.engine.moveDown();
+		assertEquals(x, comp.engine.frog.GetX());
+		assertEquals(y, comp.engine.frog.GetY());
+		
+//		try {
+//			//comp.update();
+//			System.out.println(comp.engine.frog.GetY());
+//			
+//			assertEquals(x, comp.engine.frog.GetX());
+//			assertEquals(y, comp.engine.frog.GetY());
+//		} catch (InterruptedException e) {
+//			fail("Test failed: InterruptedException");
+//			e.printStackTrace();
+//		}
+	}
+}
